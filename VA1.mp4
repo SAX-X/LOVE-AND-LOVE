@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>¿Quién soy?</title>
+
+<style>
+    body{
+        background-color: rgba(255, 192, 203, 0.7);
+        font-family: Arial;
+        padding: 40px;
+        color: white;
+    }
+
+    #contenedor{
+        background-color: rgba(186, 85, 211, 0.6);
+        padding: 25px;
+        border-radius: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: Bahnschrift SemiBold SemiConden;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial Black;
+    }
+
+    a{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #BA55D3;
+        color: white;
+        padding: 12px;
+        width: 200px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover{
+        background-color: #FFB6C1;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="contenedor">
+
+    <h1>¿Quién Soy?</h1>
+
+    <p>
+        A veces creemos conocernos, pero en realidad solo entendemos la parte que mostramos a los demás.  
+        La pregunta “¿Quién soy?” no se responde con un nombre, una edad o una historia.  
+        Se responde con lo que sentimos, con lo que callamos y con lo que buscamos.
+    </p>
+
+    <p>
+        Soy lo que he vivido, pero también lo que he superado.  
+        Soy mis heridas, pero también mis ganas de sanar.  
+        Soy mis miedos, pero también mi valentía para enfrentarlos.
+    </p>
+
+    <p>
+        Descubrir quién soy implica aceptar mis sombras sin dejar que me definan,  
+        reconocer mis errores sin quedarme atrapado en ellos  
+        y valorar mis virtudes sin sentir culpa por tenerlas.
+    </p>
+
+    <p>
+        No soy perfecto, pero soy real.  
+        Y cada día me acerco un poco más a la versión de mí que quiero ser.
+    </p>
+
+
+</div>
+
+</body>
+</html>

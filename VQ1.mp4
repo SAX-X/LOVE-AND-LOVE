@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>La importancia de soltar</title>
+
+<style>
+    body{
+        background-color: rgba(255, 192, 203, 0.7);
+        font-family: Arial;
+        padding: 40px;
+        color: white;
+    }
+    #contenedor{
+        background-color: rgba(186, 85, 211, 0.6);
+        padding: 25px;
+        border-radius: 15px;
+        width: 80%;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: Bahnschrift SemiBold SemiConden;
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial Black;
+    }
+    a{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #BA55D3;
+        color: white;
+        padding: 12px;
+        width: 200px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a:hover{
+        background-color: #FFB6C1;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="contenedor">
+
+    <h1>La Importancia de Soltar</h1>
+
+    <p>
+        Soltar no es perder.  
+        Soltar es aceptar que hay cosas que ya no pueden quedarse,  
+        personas que ya no suman  
+        y situaciones que ya no te permiten crecer.
+    </p>
+
+    <p>
+        A veces nos aferramos por miedo,  
+        por costumbre o por esperanza,  
+        pero aferrarse a lo que duele  
+        solo prolonga la herida.
+    </p>
+
+    <p>
+        Soltar es un acto de amor propio.  
+        Es entender que mereces paz,  
+        que mereces calma  
+        y que mereces avanzar sin cadenas.
+    </p>
+
+    <p>
+        Soltar libera…  
+        y abrir espacio permite que llegue lo que sí es para ti.
+    </p>
+
+</div>
+
+</body>
+</html>

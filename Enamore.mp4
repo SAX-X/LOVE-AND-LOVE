@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Promesas Vacías</title>
+
+<style>
+    body{
+        background-color: rgba(255, 192, 203, 0.7);
+        font-family: Arial;
+        padding: 40px;
+        color: white;
+    }
+
+    #contenedor{
+        background-color: rgba(186, 85, 211, 0.6);
+        padding: 25px;
+        border-radius: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: Bahnschrift SemiBold SemiConden;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial Black;
+    }
+
+    a{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #BA55D3;
+        color: white;
+        padding: 12px;
+        width: 200px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover{
+        background-color: #FFB6C1;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="contenedor">
+
+    <h1>Promesas Vacías</h1>
+
+    <p>
+        Las promesas vacías son palabras que suenan bonitas,  
+        pero que nunca llegan a convertirse en hechos.  
+        Son compromisos que se dicen con la boca,  
+        pero no se sostienen con el corazón.
+    </p>
+
+    <p>
+        Una promesa vacía duele porque crea esperanza,  
+        y la esperanza, cuando no se cumple, se convierte en decepción.  
+        No duele la promesa… duele la intención que nunca existió.
+    </p>
+
+    <p>
+        A veces las personas prometen para no perderte,  
+        no porque realmente quieran cambiar.  
+        Y ahí es donde uno aprende que las acciones  
+        siempre hablan más fuerte que cualquier palabra.
+    </p>
+
+    <p>
+        Las promesas vacías enseñan algo importante:  
+        que merecemos hechos, no ilusiones;  
+        realidades, no discursos;  
+        personas que cumplan, no que entretengan.
+    </p>
+
+
+</div>
+
+</body>
+</html>

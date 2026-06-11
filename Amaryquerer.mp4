@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>El peso de las expectativas</title>
+
+<style>
+    body{
+        background-color: rgba(255, 192, 203, 0.7);
+        font-family: Arial;
+        padding: 40px;
+        color: white;
+    }
+
+    #contenedor{
+        background-color: rgba(186, 85, 211, 0.6);
+        padding: 25px;
+        border-radius: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: Bahnschrift SemiBold SemiConden;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial Black;
+    }
+
+    a{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #BA55D3;
+        color: white;
+        padding: 12px;
+        width: 200px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover{
+        background-color: #FFB6C1;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="contenedor">
+
+    <h1>El Peso de las Expectativas</h1>
+
+    <p>
+        Las expectativas son como mochilas invisibles que cargamos sin darnos cuenta.  
+        A veces no pesan al principio, pero con el tiempo se vuelven una carga  
+        que nos cansa, nos frustra y nos hace sentir que nunca es suficiente.
+    </p>
+
+    <p>
+        Las expectativas de los demás pueden lastimar,  
+        pero las que nosotros mismos nos imponemos pueden destruirnos.  
+        Queremos ser perfectos, no fallar, no decepcionar…  
+        y en ese intento nos olvidamos de ser humanos.
+    </p>
+
+    <p>
+        El problema no es esperar algo,  
+        sino creer que debemos cumplirlo todo para valer.  
+        Nadie puede con el peso de ser lo que todos quieren.  
+        Nadie puede vivir intentando llenar vacíos ajenos.
+    </p>
+
+    <p>
+        Soltar expectativas no es rendirse,  
+        es liberarse.  
+        Es entender que no tenemos que demostrar nada,  
+        que nuestro valor no depende de cumplir estándares imposibles.
+    </p>
+
+    <a href="../index.html">Regresar al Inicio</a>
+
+</div>
+
+</body>
+</html>

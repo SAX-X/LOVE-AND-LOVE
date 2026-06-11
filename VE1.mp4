@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>El silencio también duele</title>
+
+<style>
+    body{
+        background-color: rgba(255, 192, 203, 0.7);
+        font-family: Arial;
+        padding: 40px;
+        color: white;
+    }
+    #contenedor{
+        background-color: rgba(186, 85, 211, 0.6);
+        padding: 25px;
+        border-radius: 15px;
+        width: 80%;
+        margin: auto;
+    }
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: Bahnschrift SemiBold SemiConden;
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial Black;
+    }
+    a{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #BA55D3;
+        color: white;
+        padding: 12px;
+        width: 200px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    a:hover{
+        background-color: #FFB6C1;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="contenedor">
+
+    <h1>El Silencio También Duele</h1>
+
+    <p>
+        A veces no es lo que dicen… sino lo que dejan de decir.  
+        El silencio puede ser más frío que cualquier palabra dura,  
+        porque deja espacio para que la mente invente historias  
+        que duelen más que la verdad.
+    </p>
+
+    <p>
+        El silencio hiere cuando se usa como castigo,  
+        cuando se convierte en una forma de desaparecer  
+        sin tener que dar explicaciones.
+    </p>
+
+    <p>
+        Pero también enseña.  
+        Enseña quién está, quién se va  
+        y quién solo aparece cuando necesita algo.
+    </p>
+
+    <p>
+        El silencio duele…  
+        pero también abre los ojos.
+    </p>
+
+    <a href="../index.html">Regresar al Inicio</a>
+
+</div>
+
+</body>
+</html>

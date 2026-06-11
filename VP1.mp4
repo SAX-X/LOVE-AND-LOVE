@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>La Soledad</title>
+
+<style>
+    body{
+        background-color: rgba(255, 192, 203, 0.7);
+        font-family: Arial;
+        padding: 40px;
+        color: white;
+    }
+
+    #contenedor{
+        background-color: rgba(186, 85, 211, 0.6);
+        padding: 25px;
+        border-radius: 15px;
+        width: 80%;
+        margin: auto;
+    }
+
+    h1{
+        text-align: center;
+        font-size: 40px;
+        font-family: Bahnschrift SemiBold SemiConden;
+    }
+
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: Arial Black;
+    }
+
+    a{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        background-color: #BA55D3;
+        color: white;
+        padding: 12px;
+        width: 200px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover{
+        background-color: #FFB6C1;
+    }
+</style>
+
+</head>
+<body>
+
+<div id="contenedor">
+
+    <h1>La Soledad También Destruye</h1>
+
+    <p>
+        La soledad no siempre es silencio.  
+        A veces es un ruido interno que nadie más escucha,  
+        un peso que se siente en el pecho aunque por fuera todo parezca normal.
+    </p>
+
+    <p>
+        Estar solo no es lo mismo que sentirse solo.  
+        La soledad emocional aparece cuando no encontramos un lugar seguro  
+        donde expresar lo que sentimos sin miedo a ser juzgados.
+    </p>
+
+    <p>
+        Pero también puede ser un espacio de crecimiento.  
+        En la soledad aprendemos a escucharnos, a entender nuestras heridas  
+        y a reconocer lo que realmente necesitamos.
+    </p>
+
+    <p>
+        La soledad destruye cuando nos aísla,  
+        pero construye cuando nos permite reencontrarnos.
+    </p>
+</div>
+
+</body>
+</html>
