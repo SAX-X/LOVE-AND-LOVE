@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>AMAR Y QUERER 💗</title>
+
+    <style>
+        
+        body{
+            padding: 40px;
+            font-family: Arial;
+            color:white;
+        }
+
+        /* VIDEO DE FONDO */
+        #video_fondo{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.35;
+        }
+
+        /* BANNER */
+        #banner{
+            background-color: #BA55D3;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-size: 40px;
+            font-family: Bahnschrift SemiBold SemiConden;
+            border-radius: 10px;
+        }
+
+        /* MENÚ DESPLEGABLE */
+        #encabezado{
+            margin:auto;
+            width:900px;
+        }
+        ul, ol{
+            list-style:none;
+        }
+        .menu > li{
+            float:left;
+        }
+        .menu li a{
+            background-color:#BA55D3;
+            color:white;
+            text-decoration:none;
+            padding:10px 15px;
+            display:block;
+        }
+        .menu li a:hover{
+            background-color:#FFB6C1;
+        }
+        .menu li ul{
+            display:none;
+            position:absolute;
+            min-width:140px;
+        }
+        .menu li:hover > ul{
+            display:block;
+        }
+
+        /* SECCIONES */
+        section{
+            display:none;
+            padding:20px;
+            background-color:rgba(255, 192, 203, 0.7);
+            border-radius:10px;
+            margin-top:20px;
+        }
+        section:target{
+            display:block;
+        }
+        /* 📱 AJUSTES PARA CELULAR */
+@media (max-width: 768px){
+
+    body{
+        padding: 15px;
+    }
+
+    /* Banner más pequeño */
+    #banner{
+        font-size: 26px;
+        padding: 12px;
+    }
+
+    /* Menú ajustado */
+    #encabezado{
+        width: 100%;
+    }
+
+    .menu > li{
+        float: none;
+        width: 100%;
+    }
+
+    .menu li a{
+        text-align: center;
+        padding: 12px;
+        font-size: 18px;
+    }
+
+    .menu li ul{
+        position: relative;
+        width: 100%;
+    }
+
+    /* Secciones */
+    section{
+        padding: 15px;
+    }
+
+    /* Video principal */
+    #jose{
+        width: 100%;
+    }
+
+    /* Galerías verticales */
+    .galeria{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .galeria > div,
+    .video-galeria{
+        flex: none;
+        height: 180px;
+    }
+
+    /* Texto más pequeño */
+    h2{
+        font-size: 24px;
+    }
+
+    p, font{
+        font-size: 16px !important;
+    }
+}
+
+
+        /* GALERÍAS */
+        .galeria{
+            display:flex;
+            height:20rem;
+            gap:1rem;
+        }
+        .galeria > div{
+            flex:1;
+            border-radius:1rem;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:auto 100%;
+            transition:all .8s cubic-bezier(.25,.4,.45,1.4);
+        }
+        .galeria > div:hover{
+            flex:5;
+        }
+
+        /* VIDEO DENTRO DE GALERÍA */
+        .video-galeria{
+            flex:1;
+            border-radius:1rem;
+            overflow:hidden;
+            background:black;
+            transition:all .8s cubic-bezier(.25,.4,.45,1.4);
+        }
+        .video-galeria:hover{
+            flex:5;
+        }
+        .video-galeria video{
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+
+        /* VIDEO PRINCIPAL */
+        #jose{
+            display:block;
+            margin:0 auto;
+            width:50%;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<!-- VIDEO DE FONDO -->
+<video autoplay muted loop id="video_fondo">
+    <source src="Vid/Enamore.mp4" type="video/mp4">
+</video>
+
+<!-- BANNER -->
+<div id="banner">
+    AMAR Y QUERER NO ES IGUAL
+</div>
+
+<!-- MENÚ DESPLEGABLE -->
+<div id="encabezado">
+    <ul class="menu">
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#">Conceptos</a>
+            <ul>
+                <li><a href="#amor">Amor</a></li>
+                <li><a href="#querer">Querer</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Psique</a>
+            <ul>
+                <li><a href="#psiquismo">Psiquismo</a></li>
+                <li><a href="#ego">Ego</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#">Multimedia</a>
+            <ul>
+                <li><a href="#galerias">Paginas I</a></li>
+                <li><a href="#videos">Paginas E</a></li>
+            </ul>
+        </li>
+
+        <li><a href="#archivos">Archivos</a></li>
+    </ul>
+</div>
+
+<!-- SECCIÓN PRINCIPAL -->
+<section id="inicio">
+    <h2>Bienvenido</h2>
+    <p><font size="5" color="white" face="Arial Black">
+        Esta página explora la diferencia entre amar y querer, desde el punto de vista emocional y psicológico.
+        <br><br>
+
+        <video controls id="jose">
+            <source src="Vid/Amaryquerer.mp4" type="video/mp4">
+        </video>
+
+    </font></p>
+</section>
+
+<!-- AMOR -->
+<section id="amor">
+    <h2>¿Qué es Amar?</h2>
+    <p><font size="4" color="white" face="Arial Black">
+        Amar implica entrega, conciencia, responsabilidad afectiva y conexión profunda.
+    </font></p>
+
+    <div class="galeria">
+        <div style="background-image:url(imgAmar/Amar1.jpeg)"></div>
+        <div style="background-image:url(imgAmar/Amar2.jpeg)"></div>
+        <div style="background-image:url(imgAmar/Amar3.jpeg)"></div>
+
+        <div class="video-galeria">
+            <video controls>
+                <source src="Vid/VA1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div style="background-image:url(imgAmar/Amar4.jpeg)"></div>
+        <div style="background-image:url(imgAmar/Amar5.jpeg)"></div>
+        <div style="background-image:url(imgAmar/Amar6.jpeg)"></div>
+    </div>
+</section>
+
+<!-- QUERER -->
+<section id="querer">
+    <h2>¿Qué es Querer?</h2>
+    <p><font size="4" color="white" face="Arial Black">
+        Querer puede ser deseo, necesidad o apego, sin necesariamente implicar profundidad emocional.
+    </font></p>
+
+    <div class="galeria">
+        <div style="background-image:url(imgQuerer/imgQuerer1.%20A___)"></div>
+        <div style="background-image:url(imgQuerer/imgQuerer2A___.jpeg)"></div>
+        <div style="background-image:url(imgQuerer/imgQuerer3A___.jpeg)"></div>
+
+        <div class="video-galeria">
+            <video controls>
+                <source src="Vid/VQ1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div style="background-image:url(imgQuerer/imgQuerer4A___.jpeg)"></div>
+        <div style="background-image:url(imgQuerer/imgQuerer5.A___.jpeg)"></div>
+        <div style="background-image:url(imgQuerer/img6)"></div>
+    </div>
+</section>
+
+<!-- PSIQUISMO -->
+<section id="psiquismo">
+    <h2>El Amor en el Psiquismo</h2>
+    <p><font size="4" color="white" face="Arial Black">
+        El amor se vuelve consciente cuando logramos identificar lo que sentimos y por qué lo sentimos.
+    </font></p>
+
+    <div class="galeria">
+        <div style="background-image:url(imgEP/P1.jpeg)"></div>
+        <div style="background-image:url(imgEP/P2.jpeg)"></div>
+        <div style="background-image:url(imgEP/P3.jpeg)"></div>
+
+        <div class="video-galeria">
+            <video controls>
+                <source src="Vid/VP1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div style="background-image:url(imgEP/P4.jpeg)"></div>
+        <div style="background-image:url(imgEP/P5.jpeg)"></div>
+        <div style="background-image:url(imgEP/E6.jpeg)"></div>
+    </div>
+</section>
+
+<!-- EGO -->
+<section id="ego">
+    <h2>El Ego en las Relaciones</h2>
+    <p><font size="4" color="white" face="Arial Black">
+        El ego puede distorsionar la percepción del amor, generando expectativas y pretensiones.
+    </font></p>
+
+    <div class="galeria">
+        <div style="background-image:url(imgEP/E1.jpeg)"></div>
+        <div style="background-image:url(imgEP/E2.jpeg)"></div>
+        <div style="background-image:url(imgEP/E3.jpeg)"></div>
+
+        <div class="video-galeria">
+            <video controls>
+                <source src="Vid/VE1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <div style="background-image:url(imgEP/E4.jpeg)"></div>
+        <div style="background-image:url(imgEP/E5.jpeg)"></div>
+        <div style="background-image:url(imgEP/E6.jpeg)"></div>
+    </div>
+</section>
+
+<!-- PAGINAS -->
+<section id="galerias">
+    <h2>Paginas internas </h2>
+    <div class="galeria">
+        <li><a href="Paginter/Promesvacia.html">Promesas vacías</a></li>
+        <br>
+    <li><a href="Paginter/Odio.html">¿El odio es malo?</a></li>
+        <br>
+    <li></li><a href="Paginter/Quien.html">¿Quien soy?</a>
+        <br>
+    <li></li><a href="Paginter/Duele.html">Cuando el amor duele </a>   
+    <li></li><a href="Paginter/Silencio.html">Silencio</a>
+        <br>
+    <li></li><a href="Paginter/Soledad.html">Soledad</a>
+        <br>
+    <li></li><a href="Paginter/Soltar.html">La importancia de soltar</a>
+        <br>
+    <li></li><a href="Paginter/PesoXp.html">El peso de soltar</a>
+    </div>
+</section>
+<!-- VIDEOS -->
+<section id="videos">
+    <h2>Paginas Externas</h2>
+     <ul>
+        <li><a href="https://www.comoves.unam.mx/numeros/articulo/147/que-es-el-amor-respuestas-desde-la-biologia" target="_blank">Página externa 1</a></li>
+        <li><a href="https://somosestupendas.com/que-es-el-amor/" target="_blank">Página externa 2</a></li>
+        <li><a href="https://www.letras.com/paloma-san-basilio/1140185/" target="_blank">Página externa 3</a></li>
+    </ul>
+</section>
+
+<!-- ARCHIVOS -->
+<section id="archivos">
+    <h2>Archivos del Proyecto</h2>
+    <p><font size="4" color="white" face="Arial Black">
+        Aquí puedes consultar los documentos utilizados.
+    </font></p>
+
+    <ul>
+        <li><a href="ARCHIVOS/El-amor.pdf">Archivo PDF</a></li>
+       <a href="https://docs.google.com/document/d/1NswqeJTDY3-JY1QMBLYVPAE-AzfikFbe/edit?usp=drive_link&ouid=107537929639986010462&rtpof=true&sd=true">Archivo DOCX</a>
+        <br>
+        <a href="https://docs.google.com/presentation/d/1PtYQE6k7v4SD68693oYdgoja-Dl6uAZh/edit?usp=drive_link&ouid=107537929639986010462&rtpof=true&sd=true">Archivo PPTX</a>
+        <br>
+        <a href="https://docs.google.com/spreadsheets/d/1RqSAlMUDLKj3p9qw69v4Czip4Nr8IMFf/edit?usp=drive_link&ouid=107537929639986010462&rtpof=true&sd=true">Archivo XLSX</a>
+    </ul>
+    </section>
+
+</body>
+</html>
